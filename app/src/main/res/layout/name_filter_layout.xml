@@ -96,7 +96,58 @@
         android:textColor="#fff"
         android:backgroundTint="@color/white"
         android:textColorHint="@color/white"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/comp2"
+        android:gravity="center_horizontal"
+        android:text="Help Lorem ipsum 01"
+        android:textAllCaps="false"
+        android:layout_marginVertical="200dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/comp3"
+        android:gravity="center_horizontal"
+        android:text="Help Lorem ipsum 02"
+        android:textAllCaps="false"
+        android:layout_marginVertical="342dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/comp4"
+        android:gravity="center_horizontal"
+        android:text="Help Lorem ipsum 03"
+        android:textAllCaps="false"
+        android:layout_marginVertical="479dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/comp5"
+        android:gravity="center_horizontal"
+        android:text="Help Lorem ipsum 04"
+        android:textAllCaps="false"
+        android:layout_marginVertical="619dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
         />
 
 </RelativeLayout>
