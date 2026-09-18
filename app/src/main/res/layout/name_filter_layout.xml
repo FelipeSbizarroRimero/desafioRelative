@@ -19,8 +19,9 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_below="@id/comp1"
-        android:background="#28C8C8"
         android:layout_marginTop="50dp"
+        android:background="#28C8C8"
+        android:layout_marginLeft="17dp"
         />
 
     <View
@@ -28,8 +29,9 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_below="@id/comp2"
-        android:background="#28C8C8"
         android:layout_marginTop="50dp"
+        android:background="#28C8C8"
+        android:layout_marginLeft="17dp"
         />
 
     <View
@@ -37,8 +39,9 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_below="@id/comp3"
-        android:background="#28C8C8"
         android:layout_marginTop="50dp"
+        android:background="#28C8C8"
+        android:layout_marginLeft="17dp"
         />
 
     <View
@@ -46,18 +49,54 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_below="@id/comp4"
-        android:background="#28C8C8"
         android:layout_marginTop="50dp"
+        android:background="#28C8C8"
+        android:layout_marginLeft="17dp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
-        android:scaleType="centerCrop"
-        android:text="Forget Password?"
+        android:text="search filter"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="<"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="408dp"
+        android:layout_marginTop="15dp"
+        android:text="..."
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:hint="Option1          Option2            Option3"
+        android:inputType="text"
+        android:maxLength="50"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
 
         />
-
 
 </RelativeLayout>
